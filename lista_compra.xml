@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supermercado>
+    <nombre>Carrefour</nombre>
+    <direccion>Gran Vía de Hortaleza, s/n, 28043 Madrid, España</direccion>
+    <coordenadas>
+        <latitud>40.47548485632201</latitud>
+        <longitud>-3.6386418381031786</longitud>
+    </coordenadas>
+    <ofertas>
+        <oferta>
+            <descuento>-10%</descuento>
+            <tipo>En carnicería</tipo>
+            <vigencia>
+                <fecha_inicio>05-04-2023</fecha_inicio>
+                <fecha_fin>05-04-2023</fecha_fin>
+            </vigencia>
+        </oferta>
+        <oferta>
+            <descuento>-15%</descuento>
+            <tipo>Productos de higiene</tipo>
+            <vigencia>
+                <fecha_inicio>01-04-2023</fecha_inicio>
+                <fecha_fin>07-04-2023</fecha_fin>
+            </vigencia>
+        </oferta>
+    </ofertas>
+    <secciones>
+        <seccion>
+            <nombre_seccion>Carnicería</nombre_seccion>
+            <productos>
+                <producto>
+                    <nombre_producto>Pechuga de pollo</nombre_producto>
+                    <precio>8,69</precio>
+                    <unidades>0.6</unidades>
+                    <unidad_medida>kg</unidad_medida>
+                    <en_oferta>true</en_oferta>
+                    <comprado>false</comprado>
+                </producto>
+                <producto>
+                    <nombre_producto>Lomo de cerdo adobado</nombre_producto>
+                    <precio>6.95</precio>
+                    <unidades>0.5</unidades>
+                    <unidad_medida>kg</unidad_medida>
+                    <en_oferta>true</en_oferta>
+                    <comprado>false</comprado>
+                </producto>
+                <producto>
+                    <nombre_producto>Hamburguesas de vacuno</nombre_producto>
+                    <precio>8.97</precio>
+                    <unidades>0.2</unidades>
+                    <unidad_medida>kg</unidad_medida>
+                    <en_oferta>true</en_oferta>
+                    <comprado>false</comprado>
+                </producto>
+            </productos>
+        </seccion>
+        <seccion>
+            <nombre_seccion>Higiene personal</nombre_seccion>
+            <productos>
+                <producto>
+                    <nombre_producto>Gel de ducha clásico suave para todo tipo de pieles 1000 ml</nombre_producto>
+                    <precio>0.95</precio>
+                    <unidades>1</unidades>
+                    <unidad_medida>u</unidad_medida>
+                    <en_oferta>true</en_oferta>
+                    <comprado>false</comprado>
+                </producto>
+                <producto>
+                    <nombre_producto>Dentífrico protección profesional Pro-Expert Oral-B 75 ml</nombre_producto>
+                    <precio>2.65</precio>
+                    <unidades>1</unidades>
+                    <unidad_medida>u</unidad_medida>
+                    <en_oferta>false</en_oferta>
+                    <comprado>false</comprado>
+                </producto>
+                <producto>
+                    <nombre_producto>Desodorante roll-on dermo extra control 48h pH Balance Sanex 50
+                        ml.</nombre_producto>
+                    <precio>1.75</precio>
+                    <unidades>2</unidades>
+                    <unidad_medida>u</unidad_medida>
+                    <en_oferta>true</en_oferta>
+                    <comprado>false</comprado>
+                </producto>
+            </productos>
+        </seccion>
+    </secciones>
+</supermercado>

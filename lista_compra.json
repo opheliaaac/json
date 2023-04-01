@@ -1,0 +1,96 @@
+{
+  "supermercado": {
+    "nombre": "Carrefour",
+    "direccion": "Gran Vía de Hortaleza, s/n, 28043 Madrid, España",
+    "coordenadas": {
+      "latitud": 40.47548485632201,
+      "longitud": -3.6386418381031786
+    },
+    "ofertas": {
+      "oferta": [
+        {
+          "descuento": "-10%",
+          "tipo": "En carnicería",
+          "vigencia": {
+            "fecha_inicio": "05-04-2023",
+            "fecha_fin": "05-04-2023"
+          }
+        },
+        {
+          "descuento": "-15%",
+          "tipo": "Productos de higiene",
+          "vigencia": {
+            "fecha_inicio": "01-04-2023",
+            "fecha_fin": "07-04-2023"
+          }
+        }
+      ]
+    },
+    "secciones": {
+      "seccion": [
+        {
+          "nombre_seccion": "Carnicería",
+          "productos": {
+            "producto": [
+              {
+                "nombre_producto": "Pechuga de pollo",
+                "precio": "8,69",
+                "unidades": 0.6,
+                "unidad_medida": "kg",
+                "en_oferta": true,
+                "comprado": false
+              },
+              {
+                "nombre_producto": "Lomo de cerdo adobado",
+                "precio": 6.95,
+                "unidades": 0.5,
+                "unidad_medida": "kg",
+                "en_oferta": true,
+                "comprado": false
+              },
+              {
+                "nombre_producto": "Hamburguesas de vacuno",
+                "precio": 8.97,
+                "unidades": 0.2,
+                "unidad_medida": "kg",
+                "en_oferta": true,
+                "comprado": false
+              }
+            ]
+          }
+        },
+        {
+          "nombre_seccion": "Higiene personal",
+          "productos": {
+            "producto": [
+              {
+                "nombre_producto": "Gel de ducha clásico suave para todo tipo de pieles 1000 ml",
+                "precio": 0.95,
+                "unidades": 1,
+                "unidad_medida": "u",
+                "en_oferta": true,
+                "comprado": false
+              },
+              {
+                "nombre_producto": "Dentífrico protección profesional Pro-Expert Oral-B 75 ml",
+                "precio": 2.65,
+                "unidades": 1,
+                "unidad_medida": "u",
+                "en_oferta": false,
+                "comprado": false
+              },
+              {
+                "nombre_producto": "Desodorante roll-on dermo extra control 48h pH Balance Sanex 50 ml.",
+                "precio": 1.75,
+                "unidades": 2,
+                "unidad_medida": "u",
+                "en_oferta": true,
+                "comprado": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
